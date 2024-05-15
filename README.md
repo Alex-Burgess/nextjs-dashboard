@@ -19,3 +19,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - Use node version: `nvm use`
 - Install: `npm i`
 - Run: `npm run dev`
+
+
+### Build and Deploy
+- Create build: `npm run build`
+- Run: `npm run start`

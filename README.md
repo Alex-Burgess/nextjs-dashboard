@@ -16,5 +16,6 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - **Config Files**: You'll also notice config files such as next.config.js at the root of your application. Most of these files are created and pre-configured when you start a new project using create-next-app. You will not need to modify them in this course.
 
 ### Running the Development Server
+- Use node version: `nvm use`
 - Install: `npm i`
 - Run: `npm run dev`

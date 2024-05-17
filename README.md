@@ -16,11 +16,15 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - **Config Files**: You'll also notice config files such as next.config.js at the root of your application. Most of these files are created and pre-configured when you start a new project using create-next-app. You will not need to modify them in this course.
 
 ### Running the Development Server
+Note: A postgres database is required for the application to store its data.  Due to complexities with using the `@vercel/postgres` package against a local database instance (see [1](https://github.com/vercel/storage/issues/123), [2](https://gal.hagever.com/posts/running-vercel-postgres-locally)), the best option is to use one hosted on Vercel.  See [Vercel Deployment](#Vercel-Deployment).
 - Use node version: `nvm use`
 - Install: `npm i`
 - Run: `npm run dev`
 
-
-### Build and Deploy
+### Build and Deploy (locally)
 - Create build: `npm run build`
 - Run: `npm run start`
+
+### Vercel Deployment
+- Follow [setting-up-your-database](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
+- Create AUTH_SECRET environment variable: `openssl rand -base64 32`
